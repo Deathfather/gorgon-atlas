@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://deathfather.github.io/gorgon-atlas/sitemap.xml

@@ -1,0 +1,168 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Gorgon Atlas — Project: Gorgon Map Overlay</title>
+  <meta name="description" content="A searchable, always-on-top Project: Gorgon companion map with enemy locations, NPCs, landmarks, notes, filters, and dungeon coverage.">
+  <meta name="theme-color" content="#0c151d">
+  <meta property="og:title" content="Gorgon Atlas">
+  <meta property="og:description" content="Find enemies, bosses, NPCs, landmarks, and dungeons without leaving the game.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://deathfather.github.io/gorgon-atlas/">
+  <meta property="og:image" content="https://deathfather.github.io/gorgon-atlas/assets/app-preview.webp">
+  <link rel="icon" href="favicon.ico" sizes="any">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="#top" aria-label="Gorgon Atlas home">
+      <img src="assets/icon.png" alt="" width="42" height="42">
+      <span>Gorgon Atlas</span>
+    </a>
+    <nav aria-label="Main navigation">
+      <a href="#features">Features</a>
+      <a href="#install">Install</a>
+      <a href="#accuracy">Accuracy</a>
+      <a href="https://github.com/Deathfather/gorgon-atlas/releases">Releases</a>
+    </nav>
+  </header>
+
+  <main id="top">
+    <section class="hero">
+      <div class="hero-glow" aria-hidden="true"></div>
+      <div class="hero-copy">
+        <p class="eyebrow">A map companion for Project: Gorgon</p>
+        <h1>Spend less time searching.<br><span>Spend more time exploring.</span></h1>
+        <p class="lede">A searchable, always-on-top Windows atlas for enemies, bosses, NPCs, landmarks, portals, dungeons, notes, and routes.</p>
+        <div class="hero-actions">
+          <a class="button primary" href="https://github.com/Deathfather/gorgon-atlas/releases/latest/download/GorgonAtlas-v0.3.3-Launch-Ready.zip">Download v0.3.3</a>
+          <a class="button secondary" href="https://github.com/Deathfather/gorgon-atlas/releases/latest">View release</a>
+        </div>
+        <p class="download-note">Windows 10/11 · x64 · No installer · No administrator access</p>
+      </div>
+      <div class="hero-mark" aria-hidden="true">
+        <img src="assets/icon.png" alt="" width="320" height="320">
+      </div>
+    </section>
+
+    <section class="stats" aria-label="Atlas coverage">
+      <div><strong>59</strong><span>selectable areas</span></div>
+      <div><strong>1,347</strong><span>enemy location records</span></div>
+      <div><strong>241</strong><span>boss records</span></div>
+      <div><strong>263</strong><span>positioned NPCs</span></div>
+    </section>
+
+    <section class="preview" aria-labelledby="preview-title">
+      <div class="section-heading">
+        <p class="eyebrow">Built for a second screen—or no second screen</p>
+        <h2 id="preview-title">Your atlas stays where you need it.</h2>
+        <p>Resize it, adjust opacity, or turn on click-through while you play.</p>
+      </div>
+      <figure class="app-frame">
+        <img src="assets/app-preview.webp" alt="Gorgon Atlas showing the Serbule map, searchable markers, filters, and enemy details" width="1600" height="994">
+      </figure>
+    </section>
+
+    <section id="features" class="features" aria-labelledby="features-title">
+      <div class="section-heading">
+        <p class="eyebrow">Everything in reach</p>
+        <h2 id="features-title">Useful during play, not in the way.</h2>
+      </div>
+      <div class="feature-grid">
+        <article>
+          <span class="feature-number">01</span>
+          <h3>Search what matters</h3>
+          <p>Find bosses, enemies, service NPCs, portals, teleports, meditation pillars, and landmarks by name or description.</p>
+        </article>
+        <article>
+          <span class="feature-number">02</span>
+          <h3>Cover more than overworld zones</h3>
+          <p>Browse dungeons, caves, sewers, event spaces, and special areas alongside the major outdoor maps.</p>
+        </article>
+        <article>
+          <span class="feature-number">03</span>
+          <h3>Make it yours</h3>
+          <p>Save favorites, attach private notes, add personal markers, and arrange simple waypoint routes. Everything stays local.</p>
+        </article>
+        <article>
+          <span class="feature-number">04</span>
+          <h3>Control the overlay</h3>
+          <p>Pan, zoom, resize, change opacity, stay on top, or use click-through. The separate unlock tab keeps you from getting stuck.</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="install" class="install" aria-labelledby="install-title">
+      <div class="section-heading">
+        <p class="eyebrow">Ready in a minute</p>
+        <h2 id="install-title">Download. Unzip. Explore.</h2>
+      </div>
+      <ol class="steps">
+        <li><span>1</span><div><h3>Download the ZIP</h3><p>Get the latest launch-ready build from GitHub Releases.</p></div></li>
+        <li><span>2</span><div><h3>Extract the whole folder</h3><p>Keep the Data and Assets folders next to GorgonAtlas.exe.</p></div></li>
+        <li><span>3</span><div><h3>Open GorgonAtlas.exe</h3><p>Use Project: Gorgon in windowed or borderless-windowed mode for the smoothest experience.</p></div></li>
+      </ol>
+      <div class="shortcut-row">
+        <span><kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>G</kbd> show / hide</span>
+        <span><kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>M</kbd> click-through</span>
+        <span><kbd>Ctrl</kbd> + click map to add a marker</span>
+      </div>
+    </section>
+
+    <section id="accuracy" class="accuracy" aria-labelledby="accuracy-title">
+      <div>
+        <p class="eyebrow">Honest about the data</p>
+        <h2 id="accuracy-title">Exact when published. Clearly approximate when not.</h2>
+      </div>
+      <div class="accuracy-copy">
+        <p>Friendly NPC and landmark coordinates come from Elder Game’s public third-party data. The official feed does not publish enemy spawn coordinates.</p>
+        <p>Enemy and boss entries use the Project: Gorgon Wiki’s written creature-location records. Those pins are labeled <strong>Approximate</strong> or <strong>Area-wide</strong>, and the original location wording remains visible in the details panel.</p>
+      </div>
+    </section>
+
+    <section class="faq" aria-labelledby="faq-title">
+      <div class="section-heading">
+        <p class="eyebrow">Good to know</p>
+        <h2 id="faq-title">Quick answers.</h2>
+      </div>
+      <div class="faq-grid">
+        <details>
+          <summary>Does it connect to the game?</summary>
+          <p>No. It does not attach to the game, read memory, intercept traffic, automate input, or modify the client.</p>
+        </details>
+        <details>
+          <summary>What if Windows warns about the app?</summary>
+          <p>The personal build is not code-signed, so Windows may show an unknown-publisher warning. It does not require administrator rights.</p>
+        </details>
+        <details>
+          <summary>What if I cannot click the overlay?</summary>
+          <p>Click the orange Unlock overlay tab or press Ctrl+Shift+M to turn click-through off.</p>
+        </details>
+        <details>
+          <summary>Where are my notes stored?</summary>
+          <p>Settings, notes, favorites, routes, and personal markers stay locally in your Windows profile.</p>
+        </details>
+      </div>
+    </section>
+
+    <section class="final-cta">
+      <img src="assets/icon.png" alt="" width="88" height="88">
+      <div>
+        <h2>Ready to map your next run?</h2>
+        <p>The download is a compiled, launch-ready Windows package.</p>
+      </div>
+      <a class="button primary" href="https://github.com/Deathfather/gorgon-atlas/releases/latest/download/GorgonAtlas-v0.3.3-Launch-Ready.zip">Download Gorgon Atlas</a>
+    </section>
+  </main>
+
+  <footer>
+    <p>Gorgon Atlas is an independent fan-made reference tool. It is not affiliated with or endorsed by Elder Game, LLC.</p>
+    <div>
+      <a href="https://github.com/Deathfather/gorgon-atlas">GitHub</a>
+      <a href="THIRD_PARTY_NOTICES.md">Attribution</a>
+      <a href="LICENSE">MIT License</a>
+    </div>
+  </footer>
+</body>
+</html>
