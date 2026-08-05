@@ -1,6 +1,6 @@
 # Gorgon Atlas v0.3.3
 
-The first public launch-ready release.
+The first public release.
 
 ## Highlights
 
@@ -14,7 +14,7 @@ The first public launch-ready release.
 
 ## Install
 
-1. Download `GorgonAtlas-v0.3.3-Launch-Ready.zip` below.
+1. Download `GorgonAtlas-v0.3.3.zip` below.
 2. Extract the entire folder.
 3. Run `GorgonAtlas.exe`.
 

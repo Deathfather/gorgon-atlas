@@ -8,7 +8,7 @@ It covers enemies, bosses, friendly NPCs, landmarks, portals, dungeons, favorite
 
 Download the latest compiled player build from [GitHub Releases](https://github.com/Deathfather/gorgon-atlas/releases/latest).
 
-1. Download `GorgonAtlas-v0.3.3-Launch-Ready.zip`.
+1. Download `GorgonAtlas-v0.3.3.zip`.
 2. Extract the entire folder.
 3. Run `GorgonAtlas.exe`.
 
@@ -24,6 +24,6 @@ Friendly NPC and landmark coordinates come from Elder Game's public third-party 
 
 ## Distribution
 
-This repository contains the public website and player documentation. The application download is provided as a compiled, launch-ready GitHub Release.
+This repository contains the public website and player documentation. The application download is provided as a compiled GitHub Release.
 
 Gorgon Atlas is an independent fan-made reference tool. It is not affiliated with or endorsed by Elder Game, LLC. See [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md) for attribution.
