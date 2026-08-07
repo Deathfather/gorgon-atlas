@@ -15,14 +15,16 @@ The bundled `areas.json`, `landmarks.json`, and `npcs.json` were obtained from E
 
 Elder Game retains copyright, reserves the right to restrict usage, prohibits altering the Project: Gorgon client, and warns that data formats may change. The app caches the data locally as requested by the official feed documentation.
 
-## Project: Gorgon Wiki creature records
+## Project: Gorgon Wiki area and creature records
 
 Enemy names, area categories, descriptive locations, combat-reference values, boss classifications, and source revision timestamps were obtained from public Project: Gorgon Wiki pages through its MediaWiki API:
 
 - <https://wiki.projectgorgon.com/wiki/Category:Creatures_by_Area>
 - <https://wiki.projectgorgon.com/wiki/Category:Bosses>
+- <https://wiki.projectgorgon.com/wiki/Category:Zones>
+- <https://wiki.projectgorgon.com/wiki/Category:Dungeons>
 
-Each in-app enemy or boss record links to its specific source page. Wiki text and Project: Gorgon facts are not covered by Gorgon Atlas's MIT license. The bundled `Data/enemies-wiki.json` is a cached reference snapshot generated on 2026-08-05.
+Each in-app enemy or boss record links to its specific source page. Wiki text and Project: Gorgon facts are not covered by Gorgon Atlas's MIT license. The bundled `Data/enemies-wiki.json` is a cached reference snapshot generated on 2026-08-06.
 
 ## Community map images
 
